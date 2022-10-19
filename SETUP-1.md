@@ -132,6 +132,29 @@ ready - started server on 0.0.0.0:3000, url: http://localhost:3000
 info  - Loaded env from /Users/nitya/Documents/GitHub/nitya/next-auth-starter/.env.local
 ```
 
+---
+
+## Next Steps
+
+Things to work on next:
+ - Deploy basic app to [Azure Static Web Apps](https://learn.microsoft.com/en-us/azure/static-web-apps/deploy-nextjs-static-export?tabs=github-actions)
+    - Validate it works with default /api and /auth routes in SWA
+    - Understand how auth/api configuration is impacted 
+ - Explore adding [Azure](https://benjaminwfox.com/blog/tech/how-to-configure-azure-b2c-with-nextjs) as Auth provider with next-auth.
+    - Validate for Azure AD
+    - Validate for Azure AD B2C
+ - Explore creating custom React components (refresh UI)
+    - Create [custom login pages](https://youtu.be/kB6YNYZ63fw)
+    - Explore [Material-UI](https://github.com/TimMikeladze/next-auth-mui) components
+ - Explore next-auth customizations for backend
+    - [Workflow for bring-your-own-backend](https://arunoda.me/blog/add-auth-support-to-a-next-js-app-with-a-custom-backend)
+    - [Authentication Patterns in next.js](https://nextjs.org/docs/authentication)
+
+
+---
+
+# Demo Walkthrough
+
 Here's a walkthrough of the demo.
 
 | Screenshot | Description |
