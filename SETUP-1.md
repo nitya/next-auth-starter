@@ -149,6 +149,9 @@ Things to work on next:
  - Explore next-auth customizations for backend
     - [Workflow for bring-your-own-backend](https://arunoda.me/blog/add-auth-support-to-a-next-js-app-with-a-custom-backend)
     - [Authentication Patterns in next.js](https://nextjs.org/docs/authentication)
+ - Explore e2e tests integration with Playwright
+    - use the next-js Playwright sample and guidance
+    - create example specs to showcase api, auth and component (UI) testing features
 
 
 ---
